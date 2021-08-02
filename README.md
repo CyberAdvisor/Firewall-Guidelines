@@ -9,6 +9,7 @@ The guidance is also based on a simple, somewhat generic environment. For busine
 1. Block all IPV6 unless specifically needed for a particular product or network requirement.
 2. Ensure that email alerting is set up in the firewall so that you can receive alerts and reports.
 3. Setup regular backups of the firewall configuration. 
+4. Setup NTP on the firewall to sync to known good external sources. All internal devices should sync to the firewall for NTP. 
 
 ## DNS
 
