@@ -14,7 +14,7 @@ The guidance is also based on a simple, somewhat generic environment. For busine
 ## DNS
 
 1. Setup DNS resolution to use a TLS enabled 3rd party such as Cloudflare, Quad9, Cisco, etc. I do not recommend using the ISP default provided. Depending on your choice, you can select a vendor that provides malware and/or adult filtering capabilities. 
-2. Setup the DNS resolver in the firewall to forward to the TLS enabled external resolver, and enable DNSSEC if supported by the external resolver.
+2. Setup the DNS resolver in the firewall to forward to the external resolver using DNS over TLS, and enable DNSSEC if supported by the external resolver.
 
 ## Segmentation
 
