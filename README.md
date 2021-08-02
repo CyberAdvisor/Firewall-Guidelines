@@ -39,7 +39,7 @@ The guidance is also based on a simple, somewhat generic environment. For busine
 
 ## Harden Configuration
 
-1. Block/redirect all internal DNS, NTP, and traffic back to the firewall.
+1. Block/redirect all internal DNS and NTP traffic back to the firewall for resolution and processing. 
 2. Block all IP traffic using protocols that should not leave the internal network (such as SMB and FTP), unless specifically needed.
 
 ## Monitoring
