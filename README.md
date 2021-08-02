@@ -4,8 +4,6 @@ This guidance is intended for those who are setting up new firewalls for small e
 
 The guidance is also based on a simple, somewhat generic environment. For business in particular you will need to customize it based on the particular requirements of your business for segmentation, permanent VPN tunnels, and web filtering, none of which are included below.
 
-New SMB/Home Firewall Guidelines:
-
 ## Initial Setup
 
 1. Block all IPV6 unless specifically needed for a particular product or network requirement.
