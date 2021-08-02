@@ -18,7 +18,7 @@ The guidance is also based on a simple, somewhat generic environment. For busine
 
 ## Segmentation
 
-1. Setup a separate subnet for IoT traffic to isolate it from the main compute LAN. For SMBs, this would be the guest WiFi which should be isolated from the business LAN.
+1. Setup a separate subnet for IoT traffic to isolate it from the main compute LAN. For small businesses, this would be the guest WiFi which should be isolated from the business LAN.
 2. Use a VLAN or dedicated port/switch setup to segment the traffic.
 3. Setup firewall rules to isolate the IoT network from the LAN, and the LAN from the IoT network (except for those IPs which will be used to manage the IoT network devices, if needed). 
 
