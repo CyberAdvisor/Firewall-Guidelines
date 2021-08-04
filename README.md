@@ -42,6 +42,8 @@ The guidance is also based on a simple, somewhat generic environment. For busine
 1. Block/redirect all internal DNS and NTP traffic back to the firewall for resolution and processing. 
 2. Block all IP traffic using protocols that should not leave the internal network (such as SMB and FTP), unless specifically needed.
 3. Disable (or make sure not enabled) UPnP & NAT-PMP unless specifically needed. 
+4. Make sure SSH access is not enabled. If needed, only enable from the inside interface (never from the WAN), and disable when no longer needed. 
+5. Enforce HTTPS access to the firewall itself. 
 
 ## Monitoring
 
