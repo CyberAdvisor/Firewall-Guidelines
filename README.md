@@ -41,6 +41,7 @@ The guidance is also based on a simple, somewhat generic environment. For busine
 
 1. Block/redirect all internal DNS and NTP traffic back to the firewall for resolution and processing. 
 2. Block all IP traffic using protocols that should not leave the internal network (such as SMB and FTP), unless specifically needed.
+3. Disable (or make sure not enabled) UPnP & NAT-PMP unless specifically needed. 
 
 ## Monitoring
 
