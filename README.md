@@ -8,8 +8,12 @@ The guidance is also based on a simple, somewhat generic environment. For busine
 
 1. Block all IPV6 unless specifically needed for a particular product or network requirement.
 2. Ensure that email alerting is set up in the firewall so that you can receive alerts and reports.
+    - https://docs.netgate.com/pfsense/en/latest/config/advanced-notifications.html#smtp-e-mail
 3. Setup regular backups of the firewall configuration. 
+    - https://docs.netgate.com/pfsense/en/latest/backup/autoconfigbackup.html
 4. Setup NTP on the firewall to sync to known good external sources. All internal devices should sync to the firewall for NTP. 
+    - https://docs.netgate.com/pfsense/en/latest/config/setup-wizard.html#ntp-and-time-zone-configuration
+    - https://docs.netgate.com/pfsense/en/latest/services/ntpd/server.html#ntp-server-configuration
 
 ## DNS
 
