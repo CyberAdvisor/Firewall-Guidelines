@@ -42,7 +42,7 @@ The guidance is also based on a simple, somewhat generic environment. For busine
 
 1. Leverage DNS and IP block lists to block access to known bad sites on the internet, from internal devices which may be compromised by malware or by internal user browsing. Not all firewalls support this capability - pfSense does. 
 2. Leverage DNS and IP block lists to block access to TOR nodes from internal systems, unless this is specifically needed.
-3. Leverage DNS and IP block lists to block access to DNS over HTTPS DNS Servers from internal systems, unless this is specifically needed, as DoH allows users to bypass whatever web filter you have enabled, as well as is used by some malware to hide C2C communications.
+3. Leverage DNS and IP block lists to block access to DNS over HTTPS DNS Servers from internal systems, unless this is specifically needed, as DoH allows users to bypass whatever web filter you have enabled, and is used by some malware to hide C2C communications.
 4. Leverage GEO blocking capabilities of the firewall to block access from the LAN to countries known to be the source of large numbers of attacks and malware unless specifically needed. 
 
 ## Harden Configuration
